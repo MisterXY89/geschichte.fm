@@ -7,12 +7,12 @@ import torchaudio
 
 data_dir = "data/"
 audio_uri = f"{data_dir}test_001.wav"
-# audio_url = "https://github.com/x4nth055/pythoncode-tutorials/raw/master/machine-learning/speech-recognition/30-4447-0004.wav"
+audio_url = "https://github.com/x4nth055/pythoncode-tutorials/raw/master/machine-learning/speech-recognition/30-4447-0004.wav"
 
 
 class Speech2Text():
   
-  def __init__(self, model_type) -> None:
+  def __init__(self, model_type="german") -> None:
       self.model_type = model_type
       self.data_dir = "data/"
       self.model, self.processor = self.init_module()
@@ -20,7 +20,9 @@ class Speech2Text():
   def init_module(self):
     models = {
       "s": "facebook/wav2vec2-base-960h",
-      "l": "facebook/wav2vec2-large-960h-lv60-self" 
+      "l": "facebook/wav2vec2-large-960h-lv60-self",
+      # "german": "flozi00/wav2vec-xlsr-german"
+      "german": "jonatasgrosman/wav2vec2-large-xlsr-53-german"
     }
     model_name = models[self.model_type]
     processor = Wav2Vec2Processor.from_pretrained(model_name)
@@ -58,6 +60,6 @@ class Speech2Text():
     return transcription.lower()
 
 
-s2t = Speech2Text(model_type="l")
-t = s2t.get_transcript(audio_uri)
+s2t = Speech2Text()
+t = s2t.get_transcript("data/converted_waves/gag02.wav")
 print(t)

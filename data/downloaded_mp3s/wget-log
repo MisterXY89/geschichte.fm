@@ -1,0 +1,16 @@
+--2022-04-07 22:31:05--  https://adn.podigee-cdn.net/adswizz/media/podcast_47771_geschichten_aus_der_geschichte_episode_543026_gag02_tatortschau_mit_wiedererkennungswert.mp3?awCollectionId=svo_3857a7
+Resolving adn.podigee-cdn.net (adn.podigee-cdn.net)... 142.132.231.147
+Connecting to adn.podigee-cdn.net (adn.podigee-cdn.net)|142.132.231.147|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://adswizz.podigee-cdn.net/media/podcast_47771_geschichten_aus_der_geschichte_episode_543026_gag02_tatortschau_mit_wiedererkennungswert.mp3?awCollectionId=svo_3857a7 [following]
+--2022-04-07 22:31:06--  https://adswizz.podigee-cdn.net/media/podcast_47771_geschichten_aus_der_geschichte_episode_543026_gag02_tatortschau_mit_wiedererkennungswert.mp3?awCollectionId=svo_3857a7
+Resolving adswizz.podigee-cdn.net (adswizz.podigee-cdn.net)... 157.90.30.47
+Connecting to adswizz.podigee-cdn.net (adswizz.podigee-cdn.net)|157.90.30.47|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12485106 (12M) [audio/mpeg]
+Saving to: ‘gag02.mp3’
+
+gag02.mp3                                                0%[                                                                                                                           ]       0  --.-KB/s               gag02.mp3                                                1%[>                                                                                                                          ] 167,22K   819KB/s               gag02.mp3                                                6%[======>                                                                                                                    ] 743,22K  1,79MB/s               gag02.mp3                                               12%[==============>                                                                                                            ]   1,54M  2,49MB/s               gag02.mp3                                               22%[==========================>                                                                                                ]   2,64M  3,23MB/s               gag02.mp3                                               32%[=======================================>                                                                                   ]   3,90M  3,83MB/s               gag02.mp3                                               50%[=============================================================>                                                             ]   6,01M  4,93MB/s               gag02.mp3                                               73%[========================================================================================>                                  ]   8,71M  6,14MB/s               gag02.mp3                                              100%[==========================================================================================================================>]  11,91M  7,48MB/s    in 1,6s    
+
+2022-04-07 22:31:13 (7,48 MB/s) - ‘gag02.mp3’ saved [12485106/12485106]
+

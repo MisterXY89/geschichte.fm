@@ -1,0 +1,9 @@
+CREATE TABLE EPISODES(
+   ID INT               PRIMARY KEY     NOT NULL,
+   EP_NAME              TEXT            NOT NULL,
+   EP_NUM               INT             NOT NULL,
+   EP_DESCRIPTION       TEXT,
+   EP_FILE_URL          TEXT,
+   EP_DOWNLOAD_URL      TEXT,
+   EP_DATE              DATE
+);
